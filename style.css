@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    background-color:white;
+    padding: 20px;
+    
+}
+h2{
+    font-size: 32pt;
+    color: rgb(31, 93, 228);
+}
+
+.home{
+    background-color: #fdf9f9;
+    height: auto;
+    width: 100%;
+  
+}  
+.homePage{
+  
+    height: auto;
+}
+.homePrimeiro{
+    display: flex;
+    height: auto;
+
+}
+h1{
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    height: auto;
+    font-size: 42pt;
+}
+button{
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 17px;
+    width: 250px; 
+    margin: 15px;
+    background-color:rgb(31, 93, 228);;
+    color: white;
+    border: none;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+p{
+    margin: 15px;
+    font-size: 18pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: lightslategray;
+   
+}
+#linksCategorias{
+    padding: 10px;
+}
+.linkCategoria{
+    
+    box-shadow: 2px 2px 3px lightslategray;;
+    display: flex;
+    border-radius: 5px;
+   
+
+}
+.imageCategoria{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin: 5px 20px;
+}
+#homeimage{
+    
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    margin: 15px auto;
+    box-shadow: 2px 2px 3px black;
+}
+
+#coment{
+    font-size: 10pt;
+    color: lightslategray;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.logos li{
+    margin: 15px;
+}
+h3{
+    font-size: 30pt;
+    margin: 15px;
+    padding: 10px;
+}
+
+
+.homeSegunda ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.video{
+    width: 500px;
+    height: 390px;
+    margin: auto;
+}
+h5{
+    margin: 15px;
+    font-size: 18pt;
+}
+.homeFooter{
+    background-color: rgba(8, 26, 187, 0.973);
+    color: white;
+    height: auto;
+
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 250px;
+}
+.linksText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+.linksText1 li{
+    margin: 15px;
+}
+.linksText1 li a{
+  text-decoration: none;
+  color: white;
+}
+
+.linksText2 li{
+    margin: 15px;
+}
+.linksText2 li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  @media screen and (max-width:1000px) {
+      .container{
+          width: 100%;
+      }
+   
+    .home{
+        background-color: #fdf9f9;
+        height: auto;
+        width: 100%;
+    }  
+    .homePrimeiro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    h1{
+        font-size: 8vw;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        
+    }
+    p{
+        margin: 15px;
+        
+    }
+    footer{
+        width: 100%;
+        background-color: black;
+        height: auto;
+    }
+    .linksText{
+        display: flex;
+        flex-direction: column;
+         
+    }
+    @media screen and (max-width: 500px) {
+        .container{
+            width: 100%;
+        }
+        .logos li{
+            margin: 5px;
+        }
+
+        #homeimage{
+           width: 375px;
+            margin: auto;
+            box-shadow: 2px 2px 3px black;
+        }
+        .video{
+            width: 375px;
+            height: 310px;
+            margin: auto;
+        }
+    }
+  
+
+}
